@@ -21,7 +21,7 @@ from wtforms.validators import DataRequired, Email
 	StringField, PasswordField, SelectField, TextAreaField, SubmitField
 	
 	
-	использовать несколько валидаторов, разделив их запятыми (,). Модуль wtforms.validators предлагает базовые валидаторы,
+	Модуль wtforms.validators предлагает базовые валидаторы,
 	но их можно создавать самостоятельно. В этой форме используются два встроенных валидатора: DataRequired и Email.
 
 	DataRequired: он проверяет, ввел ли пользователь хоть какую-информацию в поле.
